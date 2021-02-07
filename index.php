@@ -1,3 +1,11 @@
+<?php
+
+if(strlen($_SERVER['REQUEST_URI']) <= 1) {
+	header('Location: https://eliblaney.com/ignite');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en"><head>
     <title>Ignite</title>
@@ -5,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="A retreat in everyday life.">
     <meta name="keywords" content="ignite daily online retreat catholic christian community fasting prayer app ios andorid">
-    <meta name="author" content="Free-Template.co">
+    <meta name="author" content="Eli Blaney">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
